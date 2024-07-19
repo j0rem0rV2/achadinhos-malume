@@ -1,0 +1,27 @@
+$headerColor:#FFB4C2;
+$titleColor: #667BC6;
+$storeColor: #7D8ABC;
+$clockColor: #304463 ;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans serif;
+}
+body{
+    background-color: lighten($color: $headerColor, $amount: 9);
+}
+.container {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+
+    @media(max-width:640px){
+        max-width: 80%;
+    }
+    
+    @media (max-width: 1024px){
+        max-width: 90%;
+    }
+}
