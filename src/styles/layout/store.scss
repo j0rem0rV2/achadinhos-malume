@@ -13,31 +13,38 @@
     }
 
     .cols{
-
         &__4{
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             justify-content: space-evenly;
             gap: 4rem 1rem;
+            
+            @media (max-width: 1024px){
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                justify-content: space-evenly;
+                gap: 2rem;
+            }
+
+            @media(max-width:640px){
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                justify-content: space-evenly;
+                gap: 0.5 rem;
+            }
 
             .product{
                 max-width: 100%;
                 img{
                     max-width: 100%;
                 }
-            }
-        }
+                
+                @media (max-width: 1024px){
+                    max-width: 80%;
+                }
 
-        &__3{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            justify-content: space-evenly;
-            gap: 3rem;
-
-            .product{
-                max-width: 100%;
-                img{
-                    max-width: 100%;
+                @media(max-width:640px){
+                    max-width: 80%;
                 }
             }
         }
