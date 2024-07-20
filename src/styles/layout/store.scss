@@ -23,28 +23,29 @@
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 justify-content: space-evenly;
-                gap: 2rem;
+                gap: 5px;
             }
 
             @media(max-width:640px){
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 justify-content: space-evenly;
-                gap: 0.5 rem;
+                padding-left: 1px;
             }
 
             .product{
                 max-width: 100%;
                 img{
                     max-width: 100%;
+                    border-radius: 8px;
                 }
                 
                 @media (max-width: 1024px){
-                    max-width: 80%;
+                    max-width: 95%;
                 }
 
                 @media(max-width:640px){
-                    max-width: 80%;
+                    max-width: 95%;
                 }
             }
         }
