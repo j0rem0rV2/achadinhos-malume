@@ -2,12 +2,17 @@ $headerColor:#FFB4C2;
 $titleColor: #667BC6;
 $storeColor: #7D8ABC;
 $clockColor: #304463 ;
+$linkColor: #0C1844;
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Kanit", sans serif;
+}
+a{
+    color: $linkColor;
+    text-decoration: none;
 }
 body{
     background-color: lighten($color: $headerColor, $amount: 9);

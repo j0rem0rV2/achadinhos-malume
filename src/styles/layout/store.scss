@@ -34,7 +34,16 @@
             }
 
             .product{
-                max-width: 100%;
+                
+                &:hover{
+                    transform: translateY(-5pix);
+                    transition: all 0.2s;
+                    font-weight: bold;
+                }
+
+                &__description{
+                    font-size: 1.2rem;
+                }
                 img{
                     max-width: 100%;
                     border-radius: 8px;
