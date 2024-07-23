@@ -1,7 +1,7 @@
 {
   "name": "ofertas",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": " ",
   "scripts": {
     "dev": " parcel src/index.html src/styles/styles.scss src/scripts/scripts.js ",
     "build": "parcel build src/index.html",
