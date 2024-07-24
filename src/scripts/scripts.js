@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const target = button.getAttribute('data-target');
 
             sections.forEach(section => {
-                if (section.classList.contains(`store__home--${target}`)) {
+                // Verifica se a classe `active` deve ser adicionada ou removida
+                if (section.classList.contains(target)) {
                     section.classList.add('active');
                 } else {
                     section.classList.remove('active');
@@ -19,3 +20,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
