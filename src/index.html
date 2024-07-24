@@ -23,7 +23,6 @@
                 <ul class="header__nav__list">
                     <li>Home</li>
                     <li>Produtos</li>
-                    <li>Contato</li>
                 </ul>
             </nav>
             <div class="nav__icon">
@@ -36,16 +35,13 @@
         <div class="container">
             <div class="hero__col">
                 <div class="hero__text">
-                    <button type="button" class="hero__button">Home</button>
+                    <button type="button" class="hero__button" data-target="store__home--home">Home</button>
                 </div>
                 <div class="hero__text">
-                    <button type="button" class="hero__button">Clothes</button>
+                    <button type="button" class="hero__button" data-target="store__home--clothes">Clothes</button>
                 </div>
                 <div class="hero__text">
-                    <button type="button" class="hero__button">Skin Care</button>
-                </div>
-                <div class="hero__text">
-                    <button type="button" class="hero__button">Make up</button>
+                    <button type="button" class="hero__button" data-target="store__home--makeup">Make up</button>
                 </div>
             </div>
         </div>
@@ -54,7 +50,7 @@
     <section class="store">
         <div class="container">
             <!-- Home -->
-            <div class="store__home">
+            <div class="store__home store__home--home active">
                 <h3>HOME
                     <i class="bi bi-house"></i>
                 </h3>
@@ -101,7 +97,7 @@
                 </div>
             </div>
             <!-- Clothes -->
-            <div class="store__home">
+            <div class="store__home store__home--clothes">
                 <h3>Clothes
                     <i class="bi bi-gender-female"></i>                
                 </h3>
@@ -133,9 +129,10 @@
                 </div>
             </div>
             <!-- Make up -->
-            <div class="store__home">
+            <div class="store__home store__home--makeup">
                 <h3>Make up
-                    <i class="bi bi-bag-heart-fill"></i>                </h3>
+                    <i class="bi bi-bag-heart-fill"></i>                
+                </h3>
                 <div class="cols__4">
                     <div class="product" data-aos="fade-up">
                         <a href="https://s.shopee.com.br/LSurP68fp?share_channel_code=1">
@@ -167,8 +164,8 @@
         
     </section>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script src="./scripts/scripts.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./scripts/scripts.js"></script>
 
 </body>
 </html>

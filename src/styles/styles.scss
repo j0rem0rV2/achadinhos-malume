@@ -2,3 +2,11 @@
 @use "./layout/header.scss";
 @use "./layout/hero.scss";
 @use "./layout/store.scss";
+
+.store__home {
+    display: none;
+}
+
+.store__home.active {
+    display: block;
+}

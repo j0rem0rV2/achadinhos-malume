@@ -7,7 +7,7 @@
     &__col{
         color: base.$clockColor;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         justify-content: space-between;
         gap: 2rem;
     }
@@ -21,6 +21,16 @@
         background-color: base.$storeColor;
         font-size: 2rem;
         padding:10px 30px;
+
+        @media (max-width: 1024px){
+            font-size: 1.5rem;
+            padding:5px 20px;
+        }
+        @media(max-width:640px){
+            font-size: 1rem;
+            padding:2.5px 10px;
+        }
+
         &:hover{
             transform: translateY(-5pix);
             transition: all 0.2s;
