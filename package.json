@@ -8,11 +8,20 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "parcel": "^2.12.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.12.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j0rem0rV2/achadinhos-malume.git"
+  },
+  "bugs": {
+    "url": "https://github.com/j0rem0rV2/achadinhos-malume/issues"
+  },
+  "homepage": "https://github.com/j0rem0rV2/achadinhos-malume#readme",
+  "description": ""
 }
